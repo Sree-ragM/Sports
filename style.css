@@ -267,11 +267,13 @@
 
             .left-logo img {
                 height: 30px;
+                margin-top: 10px;
             }
 
             .right-logo img {
                 height: 50px;
-                margin-left: 10px;
+                margin-left: 1px;
+
             }
         }
 
