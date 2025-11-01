@@ -1,60 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Leaderboard</title>
     <link rel="stylesheet" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <nav class="navbar">
-        <div class="logo left-logo">
-            <img src="ASBT_logo.png" alt="Left Logo" id="leftLogo">
-        </div>
-        <div class="logo right-logo">
-            <img src="creatome_white.png" alt="Right Logo" id="rightLogo">
-        </div>
+      <div class="logo left-logo">
+        <img src="ASBT_logo.png" alt="Left Logo" id="leftLogo" />
+      </div>
+      <div class="logo right-logo">
+        <img src="creatome_white.png" alt="Right Logo" id="rightLogo" />
+      </div>
     </nav>
-    
+
     <div class="wrap" role="region" aria-label="Leaderboard">
-        <header class="leader">
-            <div>
-                 <h1 id="lb-title">Leaderboard</h1>
+      <header class="leader">
+        <div>
+          <h1 id="lb-title">Leaderboard</h1>
+        </div>
+      </header>
+      <!-- Leaderboard card -->
+      <section class="card" aria-labelledby="lb-title">
+        <ul class="list" role="list">
+          <li class="item top1" tabindex="0" role="listitem">
+            <div class="meta">
+              <div class="name">Rank</div>
             </div>
-        </header>
-        <!-- Leaderboard card -->
-        <section class="card" aria-labelledby="lb-title">
+            <div class="meta">
+              <div class="name">Batch</div>
+            </div>
+            <div class="score">Score</div>
+          </li>
+          <li class="item top1" tabindex="0" role="listitem">
+            <div class="rank">1</div>
+            <div class="meta">
+              <div class="name">MSc</div>
+            </div>
+            <div class="score">980</div>
+          </li>
 
+          <li class="item top2" tabindex="0" role="listitem">
+            <div class="rank">2</div>
+            <div class="meta">
+              <div class="name">BSc</div>
+            </div>
+            <div class="score">920</div>
+          </li>
 
-            <ul class="list" role="list">
-                <li class="item top1" tabindex="0" role="listitem">
-                    <div class="meta">
-                        <div class="name">Rank</div>
-                    </div>
-                    <div class="meta">
-                        <div class="name">Batch</div>
-                    </div>
-                    <div class="score">Score</div>
-                </li>
-                <li class="item top1" tabindex="0" role="listitem">
-                    <div class="rank">1</div>
-                    <div class="meta">
-                        <div class="name">MSc</div>
-                    </div>
-                    <div class="score">980</div>
-                </li>
-
-                <li class="item top2" tabindex="0" role="listitem">
-                    <div class="rank">2</div>
-                    <div class="meta">
-                        <div class="name">BSc</div>
-                    </div>
-                    <div class="score">920</div>
-                </li>
-
-                <!-- <li class="item top3" tabindex="0" role="listitem">
+          <!-- <li class="item top3" tabindex="0" role="listitem">
                     <div class="rank">3</div>
                     <div class="meta">
                         <div class="name">Emma Davis</div>
@@ -77,10 +74,8 @@
                     </div>
                     <div class="score">850</div>
                 </li> -->
-            </ul>
-        </section>
-
+        </ul>
+      </section>
     </div>
-</body>
-
+  </body>
 </html>
