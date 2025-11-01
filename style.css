@@ -246,7 +246,7 @@
             }
         }
 
-        @media (max-width:420px) {
+        @media (max-width:320px) {
             .item {
                 grid-template-columns: 44px 1fr 72px;
                 padding: 10px
